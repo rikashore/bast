@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Ast.fs" />
+        <Compile Include="Lexer.fs" />
+        <Compile Include="Parser.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Farkle" Version="6.5.0" />
+        <PackageReference Update="FSharp.Core" Version="6.0.5" />
+    </ItemGroup>
+
+</Project>
